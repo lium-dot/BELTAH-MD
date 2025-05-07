@@ -193,7 +193,7 @@ keith({
   });
 });
 
-// Command to check bot response time
+/*// Command to check bot response time
 keith({
   nomCom: 'ping',
   aliases: ['speed', 'latency'],
@@ -222,7 +222,7 @@ keith({
   await loadingPromise;
 });
 
-// Command to check bot uptime
+/ Command to check bot uptime
 keith({
   nomCom: 'uptime',
   aliases: ['runtime', 'running'],
@@ -248,7 +248,7 @@ keith({
   });
   console.log("Runtime results sent successfully!");
   await delay(ms);
-});
+});*/
 
 // Command to redeploy the bot
 function createRedeployCommand(name) {
